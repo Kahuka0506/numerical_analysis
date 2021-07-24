@@ -22,7 +22,7 @@ Numerical analysis library
 
 
 ## Differential Equations
-[document](./document/differntial_equations.md)
+[document](./document/differential_equations.md)
 - Ordinary differential equations(ODE)
 - Partial differential equations(PDE)
 
@@ -34,3 +34,4 @@ Numerical analysis library
 [document](./document/interpolation.md)
 - Lagrange interpolation `lagrange_interpolation.cpp` 
 - Spline interpolation `spline_interpolation.cpp` 
+- Least squares `least_squares.cpp`

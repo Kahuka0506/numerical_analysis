@@ -35,6 +35,11 @@ ax.plot(x,y,"-",linewidth=1,color='blue',label="lagrange")
 
 
 
+x,y = np.loadtxt("data_least_squares.txt", comments='#', unpack=True)
+ax.plot(x,y,"-",linewidth=1,color='green',label="LSM")
+
+
+
 
 ax.set_ylabel("$y$",fontsize = 11)
 ax.set_xlabel("$x$",fontsize = 11)
@@ -45,7 +50,7 @@ ax.legend(loc="best")
 
 
 plt.show()
-#fig.savefig("data_fig.png")
+fig.savefig("data_fig.png")
 
 
 
