@@ -1,6 +1,74 @@
 #ifndef DIRECT_METHOD_HPP
 #define DIRECT_METHOD_HPP 1
 
+
+
+
+vd gauss_elimination(vvd A, vd b){
+    
+    int n = si(A);
+    vd x(n,0.0);
+    int f = 1;
+    rep(i,n){
+        int idx = i;
+        double aii = A[i][i];
+        reps(j,i,n) if(chmax(aii,A[j][i])) idx = j;
+        if(idx != i){
+            reps(j,i,n) swap(A[i][j],A[idx][j]);
+            swap(b[i],b[idx]);
+        }
+        if(A[i][i] == 0) {
+            f = 0;
+            break;
+        }
+        
+        aii = A[i][i];
+        reps(j,i,n) A[i][j] /= aii;
+        b[i] /= aii;
+        
+        reps(j,i+1,n){
+            double aa = A[j][i];
+            reps(k,i,n) A[j][k] -= A[i][k]*aa;
+            b[j] -= b[i]*aa;
+        }
+    }
+    if(!f) return x;
+    
+    per(i,n){
+        reps(j,i+1,n) b[i] -= A[i][j]*x[j];
+        x[i] = b[i]/A[i][i];
+    }
+    
+    
+    return x;
+}
+
+double rank_gauss_elimination(vvd A){
+    int n = si(A);
+    vd x(n,0.0);
+    double rank = 0;
+    rep(i,n){
+        int idx = i;
+        double aii = A[i][i];
+        reps(j,i,n) if(chmax(aii,A[j][i])) idx = j;
+        if(idx != i){
+            reps(j,i,n) swap(A[i][j],A[idx][j]);
+        }
+        if(A[i][i] == 0) {
+            return rank;
+        }else rank++;
+        
+    }
+    return rank;
+}
+
+
+
+
+
+
+
+
 pair<vvd,vvd> LU_decomposition(vvd A){
     
     int n = si(A);
@@ -62,6 +130,9 @@ vvd inv_LU(vvd A){
     
     return inv_A;
 }
+
+
+
 
 
 

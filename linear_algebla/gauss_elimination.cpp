@@ -47,17 +47,22 @@ template<typename T> using pq1 = priority_queue<T,vector<T>,greater<T>>;
 template<typename T> bool chmax(T &a, T b) {if(a < b) {a = b;return 1;}return 0;}
 template<typename T> bool chmin(T &a, T b) {if(a > b) {a = b;return 1;}return 0;}
 
-
+#include "direct_method.hpp"
 
 void solve(){
     
     int N;
     cin >> N;
     vvd A(N,vd(N));
+    IN(N,N,A);
     
+    cout << "gauss elimination equation" << endl;
+    vd b = {0,24,14};
+    vd x = gauss_elimination(A,b);
+    outve(x);
     
-    
-    
+    cout << "rank A" << endl;
+    cout << rank_gauss_elimination(A) << endl;
 }
 
 

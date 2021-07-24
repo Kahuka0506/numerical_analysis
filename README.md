@@ -3,15 +3,15 @@
 Numerical analysis library
 
 ## Linear algebra  
+[document](./document/linear_algebla.md)
 - Direct method `direct_method.hpp`
-    - Gauss Elimination`gauss_elimination.cpp` 
+    - Gauss Elimination, Matrix Rank `gauss_elimination.cpp` 
     - LU decomposition, Inverse matrix, Simultaneous equations `LU.cpp` 
     - TODO, cholesky
 
 - Iterative method `iterative_method.hpp`  
     - Stationary method `stationary_method.cpp` Jacobi, Gauss-Seidel, SOR    
-    - Nonstationary method  
-    - TODO, CG, BCG, CGS, BISGSTAB  
+    - TODO Nonstationary method, CG, BCG, CGS, BISGSTAB  
 
 
 - Eigen value `eigen.hpp`
@@ -22,6 +22,7 @@ Numerical analysis library
 
 
 ## Differential Equations
+[document](./document/differntial_equations.md)
 - Ordinary differential equations(ODE)
 - Partial differential equations(PDE)
 
@@ -30,5 +31,6 @@ Numerical analysis library
 
 
 ## Interpolation
+[document](./document/interpolation.md)
 - Lagrange interpolation `lagrange_interpolation.cpp` 
 - Spline interpolation `spline_interpolation.cpp` 
