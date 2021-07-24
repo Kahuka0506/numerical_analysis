@@ -3,26 +3,32 @@
 Numerical analysis library
 
 ## Linear algebra  
-### Direct method `direct_method.hpp`
-- `Gauss_elimination.cpp` Gauss Elimination
-- `LU.cpp` LU decomposition, inverse matrix, Simultaneous equations
-- TODO, cholesky
+- Direct method `direct_method.hpp`
+    - Gauss Elimination`gauss_elimination.cpp` 
+    - LU decomposition, Inverse matrix, Simultaneous equations `LU.cpp` 
+    - TODO, cholesky
 
-### Iterative method `iterative_method.hpp`
-Stationary method
-- `stationary_method.cpp` Jacobi, Gauss-Seidel, SOR    
-  
-Nonstationary method  
-- TODO, CG, BCG, CGS, BISGSTAB  
+- Iterative method `iterative_method.hpp`  
+    - Stationary method `stationary_method.cpp` Jacobi, Gauss-Seidel, SOR    
+    - Nonstationary method  
+    - TODO, CG, BCG, CGS, BISGSTAB  
 
 
-### eigen value `eigen.hpp`
-- `power_method.cpp` power method, power method shift, inverse power method
+- Eigen value `eigen.hpp`
+    - power method, power method shift, inverse power method `power_method.cpp`
+    - TODO QR, Howseholder
 
 
 
-## DIffer
+
+## Differential Equations
+- Ordinary differential equations(ODE)
+- Partial differential equations(PDE)
+
+
+
+
 
 ## Interpolation
-- `lagrange_interpolation.cpp` lagrange_interpolation
-- `spline_interpolation.cpp` spline_interpolation
+- Lagrange interpolation `lagrange_interpolation.cpp` 
+- Spline interpolation `spline_interpolation.cpp` 
