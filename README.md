@@ -3,7 +3,7 @@
 Numerical analysis library
 
 ## Linear algebra  
-[document](./document/linear_algebla.md)
+[document](./linear_algebla/README.md)
 - Direct method `direct_method.hpp`
     - Gauss Elimination, Matrix Rank `gauss_elimination.cpp` 
     - LU decomposition, Inverse matrix, Simultaneous equations `LU.cpp` 
@@ -22,7 +22,7 @@ Numerical analysis library
 
 
 ## Differential Equations
-[document](./document/differential_equations.md)
+[document](./differential_equations/README.md)
 - Ordinary differential equations(ODE)
 - Partial differential equations(PDE)
 
@@ -31,7 +31,7 @@ Numerical analysis library
 
 
 ## Interpolation
-[document](./document/interpolation.md)
+[document](./interpolation/README.md)
 - Lagrange interpolation `lagrange_interpolation.cpp` 
 - Spline interpolation `spline_interpolation.cpp` 
 - Least squares `least_squares.cpp`
