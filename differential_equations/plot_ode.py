@@ -22,7 +22,7 @@ ax.legend(loc="best")
 
 
 plt.show()
-fig.savefig("data_ode.png")
+fig.savefig("./out/data_ode.png")
 
 
 
