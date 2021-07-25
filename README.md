@@ -3,7 +3,7 @@
 Numerical analysis library
 
 ## Linear algebra  
-[document](./linear_algebla/README.md)
+[Linear algebra](./linear_algebla/README.md)
 - Direct method `direct_method.hpp`
     - Gauss Elimination, Matrix Rank `gauss_elimination.cpp` 
     - LU decomposition, Inverse matrix, Linear equations `LU.cpp` 
@@ -22,16 +22,31 @@ Numerical analysis library
 
 
 ## Differential Equations
-[document](./differential_equations/README.md)
+[Differential Equations](./differential_equations/README.md)
 - Ordinary differential equations(ODE)
+    - Runge kutta
 - Partial differential equations(PDE)
-
-
-
+    - Elliptic (B^2-AC < 0)  Poisson equation    
+    - Parabolic (B^2-AC = 0)  Diffusion equation  
+    Explicit,Implicit,Crank-Nicolson  
+    - Hyperbolic (B^2 - AC > 0)   Wave equation    
 
 
 ## Interpolation
-[document](./interpolation/README.md)
+[Interpolation](./interpolation/README.md)
 - Lagrange interpolation `lagrange_interpolation.cpp` 
 - Spline interpolation `spline_interpolation.cpp` 
 - Least squares `least_squares.cpp`
+
+
+
+
+## Integration
+[Integration](./Integration/README.md)
+- Middle method
+- Trapezoid method
+- Simpson method
+- Simpson_3_8 method
+
+
+
