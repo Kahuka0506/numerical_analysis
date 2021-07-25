@@ -57,16 +57,20 @@ void solve(){
     cin >> N;
     vvd A(N,vd(N));
     IN(N,N,A);
+    vd b(N);
+    in(N,b);
     
-    vd b = {0,24,14};
+    cout << "Jacobi" << endl;
     vd x = Jacobi(A,b);
     outve(x);
     
     
+    cout << "Gauss-Seidel" << endl;
     x = Gauss_Seidel(A,b);
     outve(x);
     
     
+    cout << "SOR" << endl;
     x = SOR(A,b);
     outve(x);
     

@@ -6,7 +6,7 @@ Numerical analysis library
 [document](./linear_algebla/README.md)
 - Direct method `direct_method.hpp`
     - Gauss Elimination, Matrix Rank `gauss_elimination.cpp` 
-    - LU decomposition, Inverse matrix, Simultaneous equations `LU.cpp` 
+    - LU decomposition, Inverse matrix, Linear equations `LU.cpp` 
     - TODO, cholesky
 
 - Iterative method `iterative_method.hpp`  

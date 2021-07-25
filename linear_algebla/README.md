@@ -1,4 +1,5 @@
 # Linear Algebra
+
 ## Direct method 
 `direct_method.hpp`
 
@@ -6,8 +7,10 @@
 - Matrix Rank
 - LU decomposition
 - Inverse matrix
-- Simultaneous equations by LU
+- Linear equations by LU
 - Cholesky decomposition
+
+
 
 ## Iterative method 
 `iterative_method.hpp`  
@@ -15,19 +18,25 @@
 - Stationary method 
     - Jacobi
     - Gauss-Seidel
-    - SOR    
+    - SOR (successive ocer-relation method)  
+diagonal dominant matrix or, positive definite and diagonal matrix
     
-- Nonstationary method,
-    - CG
+- Nonstationary method  
+Krylov Subspace Method
+    - CG (Conjugate Gradient method)
     - BCG
     - CGS
     - BISGSTAB  
 
 
+
+
 ## Eigen value
 `eigen.hpp`
 
-- Power method, power method shift, inverse power method 
+- Power metho
+- Power method shift
+- inverse power method 
 - QR, Howseholder
 
 
