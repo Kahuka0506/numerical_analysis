@@ -42,7 +42,7 @@ Numerical analysis library
 
 
 ## Integration
-[Integration](./Integration/README.md)
+[Integration](./integration/README.md)
 - Middle method
 - Trapezoid method
 - Simpson method
