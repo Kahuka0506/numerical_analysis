@@ -18,11 +18,11 @@
 - Stationary method 
     - Jacobi
     - Gauss-Seidel
-    - SOR (successive ocer-relation method)  
+    - SOR (successive over-relation method)     
 diagonal dominant matrix or, positive definite and diagonal matrix
     
-- Nonstationary method  
-Krylov Subspace Method
+    
+- Nonstationary method  (Krylov Subspace Method)
     - CG (Conjugate Gradient method)
     - BCG
     - CGS

@@ -7,16 +7,16 @@ Numerical analysis library
 - Direct method `direct_method.hpp`
     - Gauss Elimination, Matrix Rank `gauss_elimination.cpp` 
     - LU decomposition, Inverse matrix, Linear equations `LU.cpp` 
-    - TODO, cholesky
+    - Cholesky
 
 - Iterative method `iterative_method.hpp`  
-    - Stationary method `stationary_method.cpp` Jacobi, Gauss-Seidel, SOR    
-    - TODO Nonstationary method, CG, BCG, CGS, BISGSTAB  
+    - Stationary method `linear_equation.cpp` Jacobi, Gauss-Seidel, SOR    
+    - Nonstationary method `CG.cpp` CG, BCG, CGS, BISGSTAB  
 
 
 - Eigen value `eigen.hpp`
-    - power method, power method shift, inverse power method `power_method.cpp`
-    - TODO QR, Howseholder
+    - Power method, Power method shift, Inverse power method `power_method.cpp`
+    - QR, Howseholder
 
 
 

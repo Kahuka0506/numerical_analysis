@@ -22,20 +22,20 @@ ax.plot(X,Y,"o",linewidth=1,color='black',label="data")
 
 
 
-x,y = np.loadtxt("data_spline_interpolation.txt", comments='#', unpack=True)
+x,y = np.loadtxt("./out/data_spline_interpolation.txt", comments='#', unpack=True)
 ax.plot(x,y,"-",linewidth=1,color='black',label="spline")
 
 
-#x,y = np.loadtxt("data_spline_interpolation1.txt", comments='#', unpack=True)
+#x,y = np.loadtxt("./out/data_spline_interpolation1.txt", comments='#', unpack=True)
 #ax.plot(x,y,"--",linewidth=1,color='red',label="spline1")
 
 
-x,y = np.loadtxt("data_lagrange_interpolation.txt", comments='#', unpack=True)
+x,y = np.loadtxt("./out/data_lagrange_interpolation.txt", comments='#', unpack=True)
 ax.plot(x,y,"-",linewidth=1,color='blue',label="lagrange")
 
 
 
-x,y = np.loadtxt("data_least_squares.txt", comments='#', unpack=True)
+x,y = np.loadtxt("./out/data_least_squares.txt", comments='#', unpack=True)
 ax.plot(x,y,"-",linewidth=1,color='green',label="LSM")
 
 
