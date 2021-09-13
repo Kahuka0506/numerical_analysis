@@ -1,8 +1,8 @@
-# Numerical analysis
+# Numerical Analysis
 
 Numerical analysis library
 
-## Linear algebra  
+## Linear Algebra  
 [Linear algebra](./linear_algebla/README.md)
 - Direct method `direct_method.hpp`
     - Gauss Elimination, Matrix Rank `gauss_elimination.cpp` 
